@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC85D76B255040BC008C8691 /* PinkPig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC85D76A255040BC008C8691 /* PinkPig.swift */; };
 		CA91B13C254EDE3100067E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA91B13B254EDE3100067E95 /* AppDelegate.swift */; };
 		CA91B13E254EDE3100067E95 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA91B13D254EDE3100067E95 /* GameScene.sks */; };
 		CA91B140254EDE3100067E95 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA91B13F254EDE3100067E95 /* Actions.sks */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC85D76A255040BC008C8691 /* PinkPig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkPig.swift; sourceTree = "<group>"; };
 		CA91B138254EDE3100067E95 /* HappyPig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyPig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA91B13B254EDE3100067E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA91B13D254EDE3100067E95 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC85D7692550408E008C8691 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				BC85D76A255040BC008C8691 /* PinkPig.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		CA91B12F254EDE3100067E95 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		CA91B13A254EDE3100067E95 /* HappyPig */ = {
 			isa = PBXGroup;
 			children = (
+				BC85D7692550408E008C8691 /* Entities */,
 				CA91B13B254EDE3100067E95 /* AppDelegate.swift */,
 				CA91B13D254EDE3100067E95 /* GameScene.sks */,
 				CA91B13F254EDE3100067E95 /* Actions.sks */,
@@ -147,6 +158,7 @@
 			files = (
 				CA91B142254EDE3100067E95 /* GameScene.swift in Sources */,
 				CA91B144254EDE3100067E95 /* GameViewController.swift in Sources */,
+				BC85D76B255040BC008C8691 /* PinkPig.swift in Sources */,
 				CA91B13C254EDE3100067E95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X4C767M9Q7;
+				DEVELOPMENT_TEAM = W73G89PCSD;
 				INFOPLIST_FILE = HappyPig/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
