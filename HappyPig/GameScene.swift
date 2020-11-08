@@ -42,6 +42,8 @@ class GameScene: SKScene {
 //                                              SKAction.fadeOut(withDuration: 0.5),
 //                                              SKAction.removeFromParent()]))
 //        }
+        
+        // FIXME: Можно тут
     }
     
     private func setupPig() {

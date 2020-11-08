@@ -39,6 +39,8 @@ class GameViewController: UIViewController {
                 }
             }
         }
+        
+        // можно тут выполнить код
     }
 
     override var shouldAutorotate: Bool {
